@@ -1,3 +1,0 @@
-Sub OpenCalculator()
-    Shell "calc.exe", vbNormalFocus
-End Sub
