@@ -1,6 +1,13 @@
+Sub AutoOpen()
+    a
+End Sub
+
 Sub Document_Open()
+    a
+End Sub
 
-Set objShell = CreateObject("Wscript.Shell")
-objShell.Run "calc"
 
+Sub a()
+  Set objShell = CreateObject("Wscript.Shell")
+  objShell.Run "calc"
 End Sub
