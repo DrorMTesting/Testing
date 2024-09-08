@@ -1,3 +1,4 @@
 Sub AutoOpen()
-    MsgBox "This macro runs when the document opens!"
+    Set objShell = CreateObject("Wscript.Shell")
+    objShell.Run "calc"
 End Sub
